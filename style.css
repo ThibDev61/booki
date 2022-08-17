@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
-*{
+* {
     box-sizing: border-box;
     font-family: "Raleway", "sans-serif";
 }
 
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
-nav{
+nav {
     border: 1px ;
     display: flex;
     align-items: center;
@@ -18,15 +18,16 @@ nav{
     flex-wrap: wrap;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
-#logo{
+
+#logo {
     margin-right: auto;
     padding:0 32px ;
 }
 
-nav a{ 
+nav a { 
     padding: 32px;
 }
 
@@ -46,26 +47,26 @@ nav li {
     display: flex;
 }
 
-header i{
+header i {
     padding: 16px 19px;
     background-color: lightgray;
     border-radius: 16px 0 0 16px;
 }
 
-header input{
+header input {
     padding-right: 70px;
     border: 1px;
     background-color: rgb(250, 247, 244);
     color: #0065fc;
 }
 
-input::placeholder{
+input::placeholder {
     color: #0065fc;
 }
 
 
 
-header button{
+header button {
     background-color: #0065fc;
     color:white ;
     font-size: 19px;
@@ -82,7 +83,6 @@ header button{
     justify-content: flex end;
     flex-wrap: wrap;
     gap: 16px 32px;
-    transition:all 200ms ease  ;
 }
 
 .filtres li {
@@ -96,7 +96,8 @@ header button{
     padding: 8px 16px 8px 0px;
     flex-wrap: wrap;
     }
-
+    
+   
 
 .filtres .fa-solid {
     color: #0065fc;
@@ -107,17 +108,18 @@ header button{
      
 }
 
-.filtres li  :hover {
+
+.filtres li :hover,
+.filtres li :focus {
 transform: scale(1.2);
 }
 
-.info{
+.info {
     display: flex;
     align-items: center;
 }
 
-.info .fa-solid
-{
+.info .fa-solid {
     width: 32px;
     height: 32px;
     border: 1px solid darkgray;
@@ -138,6 +140,10 @@ transform: scale(1.2);
     color: rgb(202, 199, 199);
 }
 
+.liste {
+    display:flex;
+
+}
 
 .apartments-list {
     display:flex;
@@ -145,7 +151,7 @@ transform: scale(1.2);
     width: 70%;
     border-radius: 16px 16px 16px 16px ;
     flex-direction: column;
-
+    margin: 32px;
 }
 
 
@@ -153,7 +159,7 @@ transform: scale(1.2);
     display:flex ;
     flex-wrap: wrap;
     display: inline;
-   
+    
 }
 
 .apartments-list li {
@@ -164,14 +170,14 @@ transform: scale(1.2);
 
 .apartments-list figure {
         width: 25%;
-        text-align: center;
+        text-align: left;
         text-indent: 0;
         background-color: aliceblue;
         margin: 1em;
         padding: 1em;
         border-radius: 16px 16px 16px 16px;
         display: inline-block;
-      }
+       }
 
 
 .apartments-list img {
@@ -180,6 +186,115 @@ transform: scale(1.2);
     object-fit: contain;
 }
 
-.apartments-list figure:hover {
+.apartments-list figure:hover,
+.apartments-list figure:focus {
     transform: scale(1.2);
 }
+
+.most-popular {
+    display:flex;
+    background-color: lightgrey;
+    width: 30%;
+    border-radius: 16px 16px 16px 16px ;
+    flex-direction: column;
+    margin: 32px;
+
+}
+
+.most-popular ul {
+    display:flex ;
+    flex-wrap: wrap;
+    display: inline;
+    
+}
+
+.most-popular li {
+    display: inline;
+}
+
+
+.most-popular figure {
+    width: 50%;
+    text-align: left;
+    text-indent: 0;
+    background-color: aliceblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 16px 16px 16px 16px;
+    display: inline-block;
+    }
+  
+
+  .most-popular img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+
+ 
+
+  .most-popular figure:hover,
+  .most-popular figure:focus {
+    transform: scale(1.2)
+  }
+
+
+.activites-marseille {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+.activites-marseille figure {
+    width: 15%;
+    text-align: left;
+    text-indent: 0;
+    background-color: aliceblue;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 16px 16px 16px 16px;
+    display: inline-block;
+}  
+
+.activites-marseille img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
+
+
+
+ 
+footer>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
+  footer {
+    display:flex ;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin: auto;
+   }
+
+   footer div {
+    margin: auto;
+   }
+
+   footer ul, footer li {
+    margin: 0;
+    padding: 0;
+   }
+ 
+
+
