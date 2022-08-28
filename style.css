@@ -140,7 +140,7 @@ transform: scale(1.2);
     color: rgb(202, 199, 199);
 }
 
-.liste {
+main {
     display:flex;
 
 }
@@ -237,6 +237,17 @@ transform: scale(1.2);
   .most-popular figure:focus {
     transform: scale(1.2)
   }
+
+
+
+
+
+
+
+
+
+
+
 
 
 .activites-marseille {
