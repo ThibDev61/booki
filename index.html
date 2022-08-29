@@ -153,19 +153,21 @@
        </article>  
    
        <section class="most-popular">
-           <h2>Les plus populaires</h2><i class="fa-solid fa-star"></i>
+           <h2>Les plus populaires<i class="fa-solid fa-star"></i></h2>
                <ul>    
                    <li>    
                        <a href="#">
-                           <figure>
+                           <figure class="carte_popular">
                                <img src="img/le-soleil-du-matin.jpg" alt="Photo d'une chambre de l'hôtel">
-                               <figcaption>Hôtel Le soleil du matin<br>
+                               <figcaption class="texte_popular">Hôtel Le soleil du matin<br>
                                Nuit à partir de <b>128€</b> 
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
+                                   <figure class="note_populaire">
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                   </figure>
                                </figcaption>
                            </figure>
                        </a>
@@ -173,15 +175,17 @@
                    
                    <li>
                        <a href="#">
-                           <figure>
+                           <figure class="carte_popular">
                                <img src="img/au-coeur-de-leau.jpg" alt="Photo d'une chambre de l'hôtel">
-                               <figcaption>Au coeur de l'eau Chambres d'hôtes
+                               <figcaption class="texte_popular">Au coeur de l'eau Chambres d'hôtes
                                <p>Nuit à partir de <b>71€</b> </p>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star gray"></i>
+                                   <figure class="note_popular">
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star gray"></i>
+                                   </figure>        
                                </figcaption>
                            </figure>  
                        </a>
@@ -189,15 +193,17 @@
               
                    <li>
                        <a href="#">
-                           <figure>
+                           <figure class="carte_popular">
                                <img src="img/tout-bleu-et-blanc.jpg" alt="Photo d'une chambre de l'hôtel">
-                               <figcaption>Hôtel Tout bleu et Blanc<br>
+                               <figcaption class="texte_popular">Hôtel Tout bleu et Blanc<br>
                                <p>Nuit à partir de <b>68€</b> </p>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star blue"></i>
-                               <i class="fa-solid fa-star gray"></i>
+                                   <figure class="note_popular">    
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star blue"></i>
+                                       <i class="fa-solid fa-star gray"></i>
+                                   </figure>
                                </figcaption>
                            </figure>      
                        </a>
@@ -206,33 +212,40 @@
            </section>
   </main>
     
-  <section class="activites-marseille" id="activites">
+  <article class="activites-marseille" id="activites">
          <h2 > Activités à Marseille</h2>
+             <div class="plaisir">
+                 <figure class="port">
+                     <img src="img/vieux-port.jpg" class="img_port" alt="Photo du vieux port">        
+                         <figcaption>Vieux Port</figcaption> 
+                 </figure>
       
-            <figure><img src="img/vieux-port.jpg" alt="Photo du vieux port">        
-            <figcaption>Vieux Port</figcaption> 
-            </figure>
+                 <figure class="pomegues">
+                     <img src="img/port-pomegues.jpg" class="img_pomegues" alt="Photo du Fort de Pomêgues">
+                         <figcaption>Fort de Pomêgues</figcaption>
+                 </figure>  
       
-            <figure><img src="img/port-pomegues.jpg" alt="Photo du Fort de Pomêgues">
-            <figcaption>Fort de Pomêgues</figcaption>
-            </figure>  
+                 <figure class="frioul">
+                     <img src="img/ile-frioul.jpg" class="img_frioul" alt="Photo des Îles du Frioul">
+                         <figcaption>Îles du Frioul</figcaption>
+                 </figure>  
       
-            <figure><img src="img/ile-frioul.jpg" alt="Photo des Îles du Frioul">
-            <figcaption>Îles du Frioul</figcaption>
-            </figure>  
+                 <figure class="calanques">
+                     <img src="img/parc-calanques.jpg" class="img_calanques" alt="Photo du Parc Nationnal des Calanques">
+                         <figcaption> Nationnal des Calanques </figcaption>
+                 </figure>
       
-            <figure><img src="img/parc-calanques.jpg" alt="Photo du Parc Nationnal des Calanques">
-            <figcaption> Nationnal des Calanques </figcaption>
-            </figure>
+                 <figure class="garde">
+                     <img src="img/notre-dame.jpg" class="img_garde" alt="Photo de Notre-Dame-de-la-Garde">
+                         <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                 </figure>     
       
-           <figure> <img src="img/notre-dame.jpg" alt="Photo de Notre-Dame-de-la-Garde">
-           <figcaption>Notre-Dame-de-la-Garde</figcaption>
-           </figure>     
-      
-           <figure><img src="img/parc-longchamp.jpg" alt="Photo du Parc Longchamp">
-           <figcaption>Parc Longchamp</figcaption> 
-           </figure>
-    </section>  
+                 <figure class="longchamp">
+                     <img src="img/parc-longchamp.jpg" class="img_longchamp" alt="Photo du Parc Longchamp">
+                         <figcaption>Parc Longchamp</figcaption> 
+                 </figure>
+             </div>    
+  </article>  
    
     <footer>
         <div class="propos">
