@@ -24,7 +24,12 @@ ul {
 
 #logo {
     margin-right: auto;
+    margin-left: 20px;
     padding:0 32px ;
+}
+
+header {
+  margin-left: 20px;
 }
 
 nav a { 
@@ -79,10 +84,12 @@ header button {
 
 .filtres {
     display: flex ;
+    margin-left: 20px;
     align-items: center;
     justify-content: flex end;
     flex-wrap: wrap;
     gap: 16px 32px;
+    width: 98%;
 }
 
 .filtres li {
@@ -146,7 +153,8 @@ main {
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
-    width: 100%;
+    margin-left: 20px;
+    width: 98%;
 }
 
 .apartments-list {
@@ -222,7 +230,7 @@ main {
 .most-popular h2 {
     display: flex;
     justify-content: space-between;
-    margin: 30px;
+    margin: 50px;
     
 }
 
@@ -235,7 +243,7 @@ main {
     margin: auto;
     margin-bottom: 40px;
     border-radius: 16px 16px 16px 16px ;
-    width: 98%;
+    width: 96%;
     height: 200px;
     background-color: white;    
   }
@@ -266,7 +274,7 @@ main {
 
 .activites-marseille {
     margin: auto;
-    width: 100%;
+    width: 98%;
     
 }
 
@@ -282,6 +290,7 @@ main {
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
     width: 100%;
     height: 600px;
     font-weight: bold;  
@@ -460,6 +469,7 @@ footer>* {
     display:flex ;
     flex-wrap: wrap;
     background-color: lightgray;
+    width: 100%;
     margin: auto;
    }
 
@@ -468,9 +478,14 @@ footer>* {
    }
 
    footer ul, footer li {
-    margin: 0;
+    margin: 0 0 8px 0;
     padding: 0;
    }
- 
+
+   
+ footer li:hover,
+ footer li:focus {
+  color: #0065fc;
+ }
 
 
