@@ -25,16 +25,16 @@ ul {
 
 #logo {
     margin-right: auto;
-    margin-left: 20px;
+    margin-left: 10px;
     padding:0 32px ;
 }
 
 header {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 nav a { 
-    padding: 32px;
+    padding: 14px;
 }
 
 nav li:hover,
@@ -45,7 +45,7 @@ color: #0065fc;
 
 nav li {
     display: inline;
-    padding: 42px 20px 42px 20px;
+    padding: 42px 13px 42px 13px;
 }
 
 
@@ -94,7 +94,7 @@ header button {
 
 
 .filtres h2 {
-  margin-left: 20px;
+  margin-left: -6px;
   margin-right: 20px;
   margin-bottom: 0;
 }
@@ -147,9 +147,11 @@ header button {
 }
 
 
-.choix *:hover,
-.choix *:focus {
-transform: scale(1.2);
+.filtres li:hover,
+.filtres li :focus {
+  cursor: pointer;
+  color: #0065fc;
+  background-color: #deebff;  
 }
 
 
@@ -157,7 +159,7 @@ transform: scale(1.2);
 .info {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .info .fa-solid {
@@ -169,6 +171,7 @@ transform: scale(1.2);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -5px;
     margin-right: 3px; 
 }
 
@@ -188,6 +191,7 @@ main {
   justify-content: space-between;
   margin: auto;
   width: 96%;
+  margin-left: 12px;
 }
 
 
@@ -323,6 +327,7 @@ main {
 
 .activites-marseille {
     margin: auto;
+    margin-left: 20px;
     width: 98%;
     
 }
