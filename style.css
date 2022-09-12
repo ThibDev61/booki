@@ -5,6 +5,7 @@
     font-family: "Raleway", "sans-serif";
 }
 
+
 a {
     color: inherit;
     text-decoration: none;
@@ -83,25 +84,57 @@ header button {
 }
 
 .filtres {
-    display: flex ;
-    margin-left: 20px;
-    align-items: center;
-    justify-content: flex end;
-    flex-wrap: wrap;
-    gap: 16px 32px;
-    width: 98%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 20px;
+  width: 96%;
+}
+
+
+.filtres h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 0;
+}
+
+.filtres ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
 .filtres li {
-    display: inline;
-    font-weight: bold;
-    margin-left: 64px;
-    border: 2px solid lightgray;
-    border-radius: 16px;
-    margin: 32px;
-    padding: 8px 16px 8px 0px;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-right: 15px;
+  border: 2px solid #f2f2f2;
+  border-radius: 30px;
+  border-left: none; 
     }
+
+
+.filtres i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: #deebff;
+  color: #0065fc;      
+}  
+
+.filtres label {
+  padding: 0 20px 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
     
    
 
@@ -114,8 +147,8 @@ header button {
 }
 
 
-.filtres li *:hover,
-.filtres li *:focus {
+.choix *:hover,
+.choix *:focus {
 transform: scale(1.2);
 }
 
@@ -124,6 +157,7 @@ transform: scale(1.2);
 .info {
     display: flex;
     align-items: center;
+    margin-left: 20px;
 }
 
 .info .fa-solid {
@@ -149,73 +183,13 @@ transform: scale(1.2);
 }
 
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: auto;
-    margin-left: 20px;
-    width: 98%;
-}
-
-.apartments-list {
-  display:flex;     
-  background-color: lightgray;     
-  width: 70%;    
-  border-radius: 16px 16px 16px 16px ;    
-  flex-direction: column;    
-  margin: 32px;
-}
-
-.apartments-list h2 {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-between;
-  margin: 30px;
+  margin: auto;
+  width: 96%;
 }
 
-
-.apartments-list ul {
-    display:flex ;
-    flex-wrap: wrap;
-    display: inline;
-    
-}
-
-.apartments-list li {
-    display: inline;
-   
-}
-
-
-.apartments-list figure {
-        width: 28%;
-        text-align: left;
-        text-indent: 0;
-        background-color: aliceblue;
-        margin: 1em;
-        padding: 1em;
-        border-radius: 16px 16px 16px 16px;
-        display: inline-block;
-       }
-
-
-.apartments-list img {
-    max-width: 100%;
-    height: 200px;
-    object-fit: contain;
-}
-
-.apartments-list figure:hover,
-.apartments-list figure:focus {
-    transform: scale(1.05);
-    transition: 0.3s;
-    box-shadow: 10px 10px 10px gray;
-}
-
-.afficher {
-    padding-left: 30px;
-    font-weight: bold;
-    color: black;
-}
 
 .most-popular {
   display: flex;
@@ -272,6 +246,81 @@ main {
   
 
 
+.apartments-list {
+  display: flex;
+  margin: 32px;
+  flex-wrap: wrap;
+  border: 1px solid #f2f2f2;
+  border-radius: 30px;
+  width: 65%;
+  height: 881px;
+  background-color: lightgrey;
+}
+
+.apartments-list h2 {
+  width: 90%;
+  margin: 15px 0 10px 30px;
+}
+
+
+.apartments-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+  .carte_hebergement {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-bottom: 40px;
+    border: 2px white solid;
+    border-radius: 30px;
+    width: 86%;
+    height: 240px;
+    background-color: white;  
+  }
+
+  .img_hebergement {
+    object-fit: cover;
+    border: 2px white solid;
+    border-radius: 30px 30px 0 0;
+    height: 130px; 
+  }
+
+  .texte_hebergement {
+    color: black;
+  }
+  
+  .texte_hebergement h3 {
+    margin: 5px 0 0 5px;
+  }
+
+  .texte_hebergement p {
+    margin: 5px 0 10px 5px;
+  }
+  
+  .note_hebergement {
+    margin: 0 0 0 5px;
+    color: #0065fc;
+  }
+  
+  .carte_hebergement:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 10px 10px 10px gray;
+  }
+
+  .afficher {
+    padding-left: 30px;
+    font-weight: bold;
+    color: black;
+  }
+
+   
+
+
+
 .activites-marseille {
     margin: auto;
     width: 98%;
@@ -288,9 +337,7 @@ main {
     display: flex;
     flex-flow: column wrap;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin: 20px; 
     width: 100%;
     height: 600px;
     font-weight: bold;  
@@ -473,7 +520,7 @@ footer>* {
     margin: auto;
    }
 
-   footer div {
+   footer section {
     margin: auto;
    }
 
