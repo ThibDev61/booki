@@ -42,6 +42,10 @@ nav a {
     padding: 14px;
 }
 
+nav ul {
+  margin-right: 36px;
+}
+
 nav li:hover,
 nav li:focus {
 border-top: 3px solid #0065fc;
