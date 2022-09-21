@@ -541,4 +541,28 @@ footer>* {
  }
 
 
+ @media screen and (max-width: 991px) {
+main {
+  flex-direction: column;
+}
+.most-popular {
+  width: 100%;
+  margin-left: 2px;
+}
+
+.apartments-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.apartments-list a {
+    width: 48%;
+    margin: auto;
+  }
+  
 
