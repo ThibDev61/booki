@@ -486,6 +486,11 @@ figure.longchamp {
     height: 80%;
   }
 
+  .plaisir figcaption {
+    margin-top: 18px;
+    margin-left: 20px;
+  }
+
   .plaisir figure:hover,
   .garde figure:focus {
     cursor: pointer;
