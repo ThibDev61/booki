@@ -217,7 +217,7 @@ main {
   flex-direction: column;
   justify-content: space-between;
   border: 1px solid #f2f2f2;
-  border-radius: 30px;;
+  border-radius: 30px;
   width: 30%;
   margin: 3px -28px 16px 0px;
   background-color: #f2f2f2;
@@ -393,47 +393,36 @@ main {
     color: black; 
 }
 
+.port,
+.pomegues,
+.frioul,
+.calanques,
+.garde,
+.longchamp {
+overflow: hidden;
+margin: auto;
+border-radius: 30px;
+box-shadow:0 1px 5px 5px #f2f2f2;
+width: 23%;
+}
+
 .port {                    
-    overflow: hidden;
-    margin: auto;
-    margin-left: 0;
-    border-radius: 30px;
-    box-shadow:0 1px 5px 5px #f2f2f2;
-    width: 23%;
-    height: 100%; 
-  }
-  
-.port:hover,
-.port:focus {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 0.3s;
-  }
-  
+  margin-left: 0;
+  height: 100%; 
+}
+
 .img_port {
     object-fit: cover;
     width: 100%;
     height: 90%;
   }
   
+.pomegues {
+  height: 50%;
+}
+
 .pomegues figure {             
     margin-top: 0;
-  }
-  
-.pomegues {
-    overflow: hidden;
-    margin: auto;
-    border-radius: 30px;
-    width: 23%;
-    height: 50%;
-    box-shadow:0 1px 5px 5px #f2f2f2;
-  }
-  
-.pomegues:hover,
-.pomegues:focus {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 0.3s;
   }
   
 .img_pomegues {
@@ -442,108 +431,68 @@ main {
     height: 80%;
   }
   
-  figure.frioul {            
+  .frioul {
+    height: 42%;
+  }
+  
+figure.frioul {            
     margin-bottom: 0;
   }
   
-  .frioul {
-    overflow: hidden;
-    margin: auto;
-    border-radius: 30px;
-    width: 23%;
-    height: 42%;
-    box-shadow:0 1px 5px 5px #f2f2f2;
-  }
-  
-  .frioul:hover,
-  .frioul:focus {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 0.3s;
-  }
-  
-  .img_frioul {
+.img_frioul {
     object-fit: cover;
     width: 100%;
     height: 75%;
   }
   
-  .calanques {                
-    overflow: hidden;
-    margin: auto;
+.calanques {                
     margin-left: 30px;
-    border-radius: 30px;
-    width: 23%;
     height: 100%;
-    box-shadow:0 1px 5px 5px #f2f2f2;
   }
   
-  .calanques:hover,
-  .calanques:focus {
-  cursor: pointer;
-  transform: scale(1.05);
-  transition: 0.3s;
-  }
-  
-  .img_calanques {
+.img_calanques {
     object-fit: cover;
     width: 100%;
     height: 90%;
   }
+
+.garde { 
+    height: 42%; 
+  }
   
-  figure.garde {              
+figure.garde {              
     margin-right: 0;
     margin-top: 0;
   }
   
-  .garde {
-    overflow: hidden;
-    margin: auto;
-    border-radius: 30px;
-    width: 23%;
-    height: 42%;
-    box-shadow:0 1px 5px 5px #f2f2f2; 
-  }
-  
-  .garde:hover,
-  .garde:focus {
-    cursor: pointer;
-    transform: scale(1.05);
-    transition: 0.3s;
-  }
-  
-  .img_garde {
+.img_garde {
     object-fit: cover;
     width: 100%;
     height: 80%;
   }
   
-  figure.longchamp {          
+.longchamp {
+    height: 50%;
+  }
+
+figure.longchamp {          
     margin-bottom: 0;
     margin-right: 0;
   }
   
-  .longchamp {
-    overflow: hidden;
-    margin: auto;
-    border-radius: 30px;
-    width: 23%;
-    height: 50%;
-    box-shadow:0 1px 5px 5px #f2f2f2; 
+.img_longchamp {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
   }
-  
-  .longchamp:hover,
-  .longchamp:focus {
+
+  .plaisir figure:hover,
+  .garde figure:focus {
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.3s;
   }
   
-  .img_longchamp {
-    object-fit: cover;
-    width: 100%;
-    height: 80%;
-  }
 
 
 
@@ -574,7 +523,8 @@ footer>* {
     margin-left: 36px;
    }
 
-   footer ul, footer li {
+   footer ul, 
+   footer li {
     margin: 0 0 8px 0;
     padding: 0;
    }
