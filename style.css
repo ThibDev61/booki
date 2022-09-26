@@ -171,8 +171,6 @@ header button {
   cursor: pointer;
 }
 
-
-
 .info {
     display: flex;
     align-items: center;
@@ -192,8 +190,6 @@ header button {
     margin-right: 3px; 
 }
 
-
-
 .blue {
     color: #0065fc;
 }
@@ -210,7 +206,6 @@ main {
   width: 96%;
   margin-left: 12px;
 }
-
 
 .most-popular {
   display: flex;
@@ -291,8 +286,6 @@ main {
     justify-items: end;
     margin: 74px 0 0 0;
     color: #0065fc; }
-  
-
 
 .apartments-list {
     display: flex;
@@ -314,9 +307,7 @@ main {
    width: 33%;
 }
 
-
-
-  .carte_hebergement {
+.carte_hebergement {
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -365,11 +356,7 @@ main {
     color: black;
   }
 
-   
-
-
-
-.activites-marseille {
+   .activites-marseille {
     margin: auto;
     margin-left: 20px;
     width: 98%;
@@ -498,24 +485,13 @@ figure.longchamp {
     transition: 0.3s;
   }
   
-
-
-
-
-
- 
-footer>* {
+  footer>* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
 
-
-
-
-
-
-  footer {
+footer {
     display:flex ;
     flex-wrap: wrap;
     background-color: lightgray;
@@ -542,7 +518,28 @@ footer>* {
 
 
  @media screen and (max-width: 991px) {
-main {
+
+nav {
+  margin-left: -27px;
+}
+
+header {
+  margin-left: 16px;
+}
+
+.filtres {
+  margin-left: 24px;
+}
+
+.filtres ul {
+  margin-left: -24px;
+}
+
+.info{
+  margin-left: 22px;
+}
+
+  main {
   flex-direction: column;
 }
 .most-popular {
@@ -564,5 +561,16 @@ main {
     width: 48%;
     margin: auto;
   }
-  
 
+
+
+.carte_hebergement {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}  
+
+.afficher {
+  padding-bottom: 30px;
+
+}
+}
