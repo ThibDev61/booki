@@ -578,4 +578,24 @@ header {
   margin-left: 4px;
 }
 
+.plaisir {
+  height: auto;
+  flex-flow: wrap;
+}
+
+.plaisir figure {
+  width: 48%;
+  margin:12px 15px 12px 0px;
+}
+
+
+.plaisir img {
+height: 160px;
+border-top-right-radius:30px ;
+}
+
+.plaisir figcaption {
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
 }
