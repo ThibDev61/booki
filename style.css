@@ -57,10 +57,55 @@ nav li {
     padding: 34px 13px 34px 13px;
 }
 
-
 .recherche {
-    display: flex;
+  display: flex;
 }
+
+header i {
+  padding: 16px 19px;
+  background-color: lightgray;
+  border-radius: 16px 0 0 16px;
+}
+
+header input {
+  padding-right: 70px;
+  border: 1px;
+  background-color: rgb(250, 247, 244);
+  color: #0065fc;
+}
+
+input::placeholder {
+font-size: 16px;
+font-weight: bold;
+color: black;
+opacity: 1;;
+}
+
+header button {
+  background-color: #0065fc;
+  color:white ;
+  font-size: 19px;
+  font-weight: bold;
+  border-radius: 0 16px 16px 0;
+  padding: 0 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.mobile_button {
+  display: none;
+  position: relative;
+  right: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0065fc;
+  color: white;
+}
+
+
 
 header i {
     padding: 16px 19px;
@@ -598,4 +643,133 @@ border-top-right-radius:30px ;
   margin-top: 14px;
   margin-bottom: 14px;
 }
+}
+
+@media screen and (max-width: 767px){
+nav {
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  width: 100%;
+}
+
+nav a:hover,
+nav a:focus {
+  border-top: none;
+  border-bottom-color: #0065fc;
+}
+
+nav a {
+  border-bottom: 2px solid #f2f2f2;
+    border-bottom-color: rgb(242, 242, 242);
+  padding-top: 10px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+header {
+  margin: auto;
+  width: 90%;
+}
+
+header input {
+  width: 70%;
+}
+
+.fa-location-dot {
+  border-radius: 15px 0 0 15px;
+  padding: 15px 17px;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+
+.mobile_button {
+  display: inline;
+  position: relative;
+  right: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0065fc;
+  color: white;
+}
+.fa-solid, .fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.info {
+    margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 20px;
+    width: 90%; 
+}
+
+main {
+  width: 100%;
+  margin-left: unset;
+}
+
+
+.most-popular { 
+    margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 40px;
+    border-radius: 0;
+    width: 100%;
+}
+
+.apartments-list {
+   margin: auto;
+      margin-bottom: auto;
+    margin-bottom: 30px;
+    border: none;
+    width: 100%;
+    height: auto;
+    background-color: unset;
+}
+
+.carte_hebergement {
+  margin-bottom: 0;
+width: 100%;
+box-shadow: 1px 1px 5px 5px #f2f2f2;
+}
+
+.apartments-list a {
+  width: 91%;
+  margin: auto;
+}
+
+.activites-marseille h2 {
+    margin: auto;
+    padding-bottom: 20px;
+    width: 98%;
+}
+
+.plaisir{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: auto;
+    width: 98%;
+  }
+
+.plaisir figure {
+  display: flex;
+flex-direction: column;
+margin-bottom: auto;
+margin-bottom: 30px;
+width: 90%;
+}
+
+footer {
+  display: flex;
+flex-direction: column;
+margin: auto;
+width: 100%;
+}
+
 }
