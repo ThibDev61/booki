@@ -92,20 +92,6 @@ header button {
   cursor: pointer;
 }
 
-.mobile_button {
-  display: none;
-  position: relative;
-  right: 20px;
-  border: none;
-  border-radius: 15px;
-  padding: 15px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #0065fc;
-  color: white;
-}
-
-
 
 header i {
     padding: 16px 19px;
@@ -684,18 +670,7 @@ header input {
 }
 
 
-.mobile_button {
-  display: inline;
-  position: relative;
-  right: 20px;
-  border: none;
-  border-radius: 15px;
-  padding: 15px;
-  font-size: 16px;
-  cursor: pointer;
-  background-color: #0065fc;
-  color: white;
-}
+
 .fa-solid, .fas {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
