@@ -625,12 +625,6 @@ nav a:hover, nav a:focus {
   border-top: none;
 }
 
-#logo {
-  padding: none;
-  margin: none;
-}
-
-
 nav ul {
   border-bottom: 2px solid #f2f2f2;
   border-bottom-color: rgb(242, 242, 242);
