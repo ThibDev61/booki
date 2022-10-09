@@ -24,7 +24,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 30px 30px 40px 30px;
+  margin: 0px 23px 30px 42px;
 }
 
 #logo {
@@ -44,9 +44,8 @@ nav li {
 }
 
 nav a { 
-  padding: 42px 20px;
-  color:black;
-}
+  padding: 32px 26px;
+ }
 
 nav a:hover,
 nav a:focus {
@@ -536,6 +535,11 @@ header {
   margin-left: 16px;
 }
 
+#logo {
+  width: 135px;
+  margin-left: 40px;
+}
+
 .filtres {
   margin-left: 24px;
 }
@@ -698,7 +702,7 @@ box-shadow: 1px 1px 5px 5px #f2f2f2;
 
 .apartments-list a {
   width: 91%;
-  margin: auto;
+  padding-top: 12px;
 }
 
 .activites-marseille h2 {
