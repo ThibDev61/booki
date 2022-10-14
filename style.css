@@ -681,6 +681,10 @@ main {
     width: 100%;
 }
 
+.stars {
+   margin-top: 57px;
+} 
+
 .apartments-list {
    margin: auto;
       margin-bottom: auto;
