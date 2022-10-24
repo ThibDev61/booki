@@ -64,10 +64,9 @@ header i {
 }
 
 header input {
-  padding-right: 70px;
-  border: 1px;
-  background-color: rgb(250, 247, 244);
-  color: #0065fc;
+  border: 1px solid #f2f2f2;
+  padding-left: 20px;
+  width: 220px;
 }
 
 input::placeholder {
@@ -99,6 +98,19 @@ input::placeholder {
   font-weight: bold;
   color: black;
   opacity: 1;;
+}
+
+.mobile_button {
+  display: none;
+  position: relative;
+  right: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0065fc;
+  color: white;
 }
 
 .filtres {
@@ -650,6 +662,34 @@ nav li {
   width:50%;
 }
 
+
+.recherche{
+  width: 90%;
+}
+
+.desktop_button {
+  display: none;
+}
+
+.mobile_button {
+  display: inline;
+  position: relative;
+  right: 20px;
+  border: none;
+  border-radius: 15px;
+  padding: 0;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0065fc;
+  color: white;
+}
+
+header i {
+  background-color: #0065fc;
+  border-radius: 15px;
+}
+
+
 header {
   margin: auto;
   width: 90%;
@@ -744,5 +784,7 @@ footer {
   margin: auto;
   width: 100%;
 }
+
+
 
 }
