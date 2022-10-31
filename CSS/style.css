@@ -8,6 +8,7 @@ body {
   box-sizing: content-box;
   margin: auto;
   font-size: 14px;
+  max-width: 1920px;
   font-family: "Raleway", "sans-serif";
 }
 
@@ -292,7 +293,9 @@ main {
   display: flex;
   flex-direction: row;
   justify-items: end;
-  margin: 74px 0 0 0;
+  margin: auto;
+  margin-bottom: 12px;
+  margin-left: 0;
   color: #0065fc; 
 }
 
@@ -523,17 +526,6 @@ footer li:focus {
   color: #0065fc;
 }
 
-@media screen and (max-width: 1644px) {
-  
-.note_popular { 
-  margin: 64px 0 0 0;
-}
-
-.stars {
-  margin: 64px 0 0 0;
-}
-
-}
 
 @media screen and (max-width: 991px) {
 
