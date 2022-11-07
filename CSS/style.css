@@ -627,33 +627,37 @@ header {
 nav {
   flex-direction: column;
   align-items: center;
-  margin: 0;
   width: 100%;
 }
 
-nav a:hover, nav a:focus {
+#logo {
+  margin-left: 70px;
+}
+
+nav li:hover, nav li:focus {
   border-top: none;
   border-bottom-color: #0065fc;
 }
 
-nav a {
-  border-bottom: 2px solid #f2f2f2;
-  padding-top: 10px;
-  padding-bottom: 15px;
-}
-
 nav ul {
-  border-bottom: 2px solid #f2f2f2;
-  border-bottom-color: rgb(242, 242, 242);
-  padding-top: 10px;
-  padding-bottom: 15px;
   width: 100%;
 }
 
 nav li {
   width:50%;
+  text-align: center;
+  padding-bottom: 18px;
+  border-bottom: 2px solid #f2f2f2;
 }
 
+nav a:hover, nav a:focus {
+  border-top: none;
+}
+
+h1 {
+  font-size: 20px;
+  margin-top: -12px;
+}
 
 .recherche{
   width: 90%;
