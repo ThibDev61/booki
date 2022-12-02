@@ -354,7 +354,8 @@ main {
   margin:12px 0 0 12px; ;
 }
   
-.carte_hebergement:hover {
+.carte_hebergement:hover,
+.carte_hebergement:focus {
   transform: scale(1.05);
   transition: 0.3s;
   box-shadow: 10px 10px 10px gray;
@@ -378,7 +379,7 @@ main {
   margin: auto;
   margin-top: 40px;
   margin-left: 21px;
-  width: 100%;
+  width: 99%;
 }
 
 .plaisir {
@@ -596,6 +597,10 @@ header {
 
 }
 
+.activites-marseille {
+  width: 97%;
+}
+
 .activites-marseille h2 {
   margin-left: 4px;
 }
@@ -634,7 +639,8 @@ nav {
   margin-left: 70px;
 }
 
-nav li:hover, nav li:focus {
+nav li:hover, 
+nav li:focus {
   border-top: none;
   border-bottom-color: #0065fc;
 }
@@ -650,7 +656,8 @@ nav li {
   border-bottom: 2px solid #f2f2f2;
 }
 
-nav a:hover, nav a:focus {
+nav a:hover, 
+nav a:focus {
   border-top: none;
 }
 
