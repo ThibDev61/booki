@@ -714,6 +714,11 @@ header input {
   font-weight: 900;
 }
 
+.filtres {
+  width: 92%;
+}
+
+
 .info {
   margin: auto;
   margin-bottom: auto;
@@ -722,7 +727,7 @@ header input {
 }
 
 main {
-  width: 100%;
+  width: 99%;
   margin-left: unset;
 }
 
@@ -759,6 +764,10 @@ main {
   padding-top: 12px;
 }
 
+.activites-marseille {
+  width: 94%;
+}
+
 .activites-marseille h2 {
   margin: auto;
   padding-bottom: 20px;
@@ -778,7 +787,7 @@ main {
   flex-direction: column;
   margin-bottom: auto;
   margin-bottom: 30px;
-  width: 90%;
+  width: 96%;
 }
 
 footer {
